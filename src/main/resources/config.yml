@@ -1,0 +1,71 @@
+# +-----------------------------------+
+# | Support | Vnco#6666               |
+# +-----------------------------------+
+
+MENU:
+  TITLE: "&b&lSupport"
+  SLOTS: 27
+
+FILL:
+  ENABLED: true
+  DISPLAY_NAME: " "
+  MATERIAL: "STAINED_GLASS_PANE"
+  DATA: 9
+  LORE:
+    - " "
+
+PACKAGES:
+  ONE:
+    PARTNER_NAME: "Vnco"
+    SKULL: "OldVnco"
+    DISPLAY_NAME: "&b&lVnco"
+    SLOT: 13
+    LORE:
+      - "&7&m------------------------------"
+      - "            &b&lReward"
+      - " &d&lx3 Partner Packages"
+      - " &b&lx5 Ability Key"
+      - "&7&m------------------------------"
+    REWARDS:
+      - "cr give <player> Ability 5"
+      - "pp give <player> <supporterName> 3"
+  TWO:
+    PARTNER_NAME: "Hely"
+    SKULL: "Steve"
+    DISPLAY_NAME: "&6&lHely Development"
+    SLOT: 10
+    LORE:
+      - "&7&m------------------------------"
+      - "&6&ldiscord.gg/hely"
+      - "&7&m------------------------------"
+    REWARDS:
+      - "tell <player> discord.gg/hely"
+  THREE:
+    PARTNER_NAME: "Panda"
+    SKULL: "Steve"
+    DISPLAY_NAME: "&f&lPanda Development"
+    SLOT: 16
+    LORE:
+      - "&7&m------------------------------"
+      - "&f&ldiscord.gg/pandacommunity"
+      - "&7&m------------------------------"
+    REWARDS:
+      - "tell <player> discord.gg/pandacommunity"
+
+LANGUAGE:
+
+  PREFIX: ""
+  RELOAD: "&aSuccessfully reload!"
+
+  NO_PERMISSIONS: "&cYou do not have permission to execute this command"
+  ONLY_PLAYERS: "&cYou cannot run this command from the console"
+  ARGUMENT_NOT_FOUND: "&cArgument &e<argument> &cnot found!"
+
+  MENU_OPENED: "&aSupport Menu Opened!"
+  SUCCESSFULLY: "&aSuccessfully used <supporterName> Support&a!"
+  CANT_OPEN: "&cYou have already used a &ePartner Support!"
+
+CUSTOM_PERMISSIONS:
+  ADMIN_PERMISSION: "support.admin"
+  RELOAD_PERMISSION: "support.reload.command"
+  COMMAND_PERMISSION: "support.menu.command"
