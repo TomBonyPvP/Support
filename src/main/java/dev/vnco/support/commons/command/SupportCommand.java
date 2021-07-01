@@ -16,7 +16,7 @@ import java.util.List;
 
 public class SupportCommand extends vCommand {
 
-    private Supports plugin;
+    private final Supports plugin;
 
     public SupportCommand(Supports plugin) {
         super("support", ConfigHandler.COMMAND_PERMISSION, ConfigHandler.ADMIN_PERMISSION, "Support Command", new String[]{"partnersupport"}, true, false, true);
